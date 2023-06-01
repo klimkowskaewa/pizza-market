@@ -93,3 +93,19 @@ a {
     flex-direction: row;
     margin: 10px 0;
 }
+
+#confirm-text {
+    font-size: 3em;
+}
+
+#menu-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#opinions form div {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
