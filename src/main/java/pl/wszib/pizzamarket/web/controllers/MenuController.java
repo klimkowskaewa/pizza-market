@@ -5,7 +5,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import pl.wszib.pizzamarket.services.PizzaService;
 import pl.wszib.pizzamarket.web.models.PizzaModel;
-
 import java.util.List;
 
 @Controller
