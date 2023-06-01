@@ -6,7 +6,6 @@ import pl.wszib.pizzamarket.data.entities.PizzaEntity;
 import pl.wszib.pizzamarket.data.repositories.PizzaRepository;
 import pl.wszib.pizzamarket.web.mappers.PizzaMapper;
 import pl.wszib.pizzamarket.web.models.PizzaModel;
-
 import java.util.List;
 
 @Service

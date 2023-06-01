@@ -2,6 +2,7 @@ package pl.wszib.pizzamarket.web.models;
 
 import java.math.BigDecimal;
 
+
 public class PizzaModel {
 
     private Long id;
