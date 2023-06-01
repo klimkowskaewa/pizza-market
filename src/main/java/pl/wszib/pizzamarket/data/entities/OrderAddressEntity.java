@@ -2,6 +2,7 @@ package pl.wszib.pizzamarket.data.entities;
 
 import jakarta.persistence.*;
 
+
 @Entity
 @Table(name = "order_addresses")
 public class OrderAddressEntity {
