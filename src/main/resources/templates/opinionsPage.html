@@ -4,17 +4,18 @@
 <section id="opinions">
     <div class="container">
 
-        <h1>Opinie</h1>
+        <h2>Opinie</h2>
         <table>
             <tr th:each="opinion : ${opinions}">
                 <td>
+
                     <h3 th:text="${opinion.opinionAuthorName}"></h3>
                     <p class="text" th:text="${opinion.opinionContent}"></p>
                 </td>
             </tr>
         </table>
 
-        <h3>Dodaj nową opinię</h3>
+        <h2>Dodaj nową opinię</h2>
         <form method="post" th:object="${opinionModel}">
             <div>
                 <input type="text" th:field="*{opinionAuthorName}" placeholder="Nazwa" class="input">
